@@ -20,11 +20,56 @@
       </nav>
     </header>
     <div class="flex-container">
-      <div class="flexbox-item flexbox-item-cont">
+      <div class="flexbox-item flexbox-item-contact">
         <h1>Contact Us</h1>
       </div>
-      <div class="flexbox-item contact-form">
-        <p>form goes here</p>
+      <div
+        class="flexbox-item flexbox-item-contact-form"
+        target="_blank"
+        method="post"
+        autocomplete="on"
+      >
+        <form action="https://formdump.codeinstitute.net" target="_blank">
+          <fieldset>
+            <legend>Your Details</legend>
+            <label for="fname">First name</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+            /><br />
+            <label for="lname">Last name</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+            /><br />
+            <label for="email">Email</label> <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+          </fieldset>
+          <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback"> Leave any feedback here:</label>
+            <br />
+            <textarea
+              id="feedback"
+              rows="4"
+              cols="87"
+              name="feedback"
+              placeholder="text goes here"
+            ></textarea>
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset form" />
+        </form>
       </div>
       <div class="flexbox-item flexbox-item-foot">
         <p>Background Image by martellcreatives from pixabay</p>

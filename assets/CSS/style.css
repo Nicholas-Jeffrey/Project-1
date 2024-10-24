@@ -13,7 +13,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+html body {
+  height: 100%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -87,27 +89,27 @@ body {
   margin-right: auto;
 }
 .flexbox-item-wel {
-  align-self: right;
+  align-self: start;
 }
 .flexbox-item-news {
   float: left;
-  align-self: left;
+  align-self: stretch;
   padding: 20px;
 }
 .flexbox-item-reco {
   padding: 20px;
-  align-self: right;
+  align-self: center;
 }
 .flexbox-item-ani1 {
-  align-self: right;
+  align-self: center;
   flex: 25%;
 }
 .flexbox-item-ani2 {
-  align-self: right;
+  align-self: center;
   flex: 25%;
 }
 .flexbox-item-ani3 {
-  align-self: right;
+  align-self: center;
 
   flex: 25%;
 }
@@ -131,9 +133,10 @@ body {
   border-bottom: 0;
 }
 .flexbox-item-b {
-  height: max-content;
   width: 100%;
   border-top: 0;
+}
+.flexbox-item-contact-form {
 }
 @media screen and (max-width: 800px) {
   .toggle-button {
