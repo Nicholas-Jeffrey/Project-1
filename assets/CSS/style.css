@@ -77,67 +77,67 @@ html body {
   border-style: solid;
   border-width: 1px;
   border-color: gold;
-  background-color: cornflowerblue;
   opacity: 0.9;
 }
-.flexbox-item img {
-  border-radius: 40%;
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.flexbox-item-wel {
-  align-self: start;
-}
 .flexbox-item-news {
-  float: left;
-  align-self: stretch;
+  flex: 20%;
   padding: 20px;
+  background-color: #0a99f8;
 }
-.flexbox-item-reco {
+.flexbox-item-main {
+  flex: 80%;
   padding: 20px;
-  align-self: center;
-}
-.flexbox-item-ani1 {
-  align-self: center;
-  flex: 25%;
-}
-.flexbox-item-ani2 {
-  align-self: center;
-  flex: 25%;
-}
-.flexbox-item-ani3 {
-  align-self: center;
-
-  flex: 25%;
+  background-color: rgb(202, 28, 28);
 }
 
 .flexbox-item-foot {
   width: 100%;
-  align-self: baseline;
   background-color: black;
   opacity: 0.9;
-  border: none;
-  bottom: 0;
-  position: fixed;
 }
 .flexbox-item-foot a {
   float: right;
   margin: 5px;
   color: darkorange;
 }
-.flexbox-item-abt {
+.preview-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview-column {
+  float: left;
+  width: 25%;
+}
+.preview-row:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.card {
+  display: inline-block;
+  margin: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
   width: 100%;
-  border-bottom: 0;
+  height: 350px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
 }
-.flexbox-item-b {
-  width: 100%;
-  border-top: 0;
+.card-body {
+  padding: 16px;
+  text-align: center;
 }
-.flexbox-item-contact-form {
+.card-body h3 {
+  margin-bottom: 10px;
 }
+
 @media screen and (max-width: 800px) {
   .toggle-button {
     display: flex;
@@ -169,13 +169,25 @@ html body {
     flex-direction: column;
     justify-self: unset;
   }
-  .flexbox-item-reco {
-    border-bottom: none;
-  }
-  .flexbox-item-ani1 {
-    border-top: none;
-  }
   .flexbox-item-foot {
     position: relative;
+  }
+  .preview-row {
+    display: block;
+  }
+  .preview-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .card {
+    width: 80%;
+  }
+  .card img {
+    height: 200px;
+  }
+  .card-body {
+    height: 220px;
   }
 }
