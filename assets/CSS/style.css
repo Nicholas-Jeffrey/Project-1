@@ -16,6 +16,7 @@ body {
 html body {
   height: 100%;
 }
+/* nav bar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -87,7 +88,7 @@ html body {
 .flexbox-item-main {
   flex: 80%;
   padding: 20px;
-  background-color: rgb(202, 28, 28);
+  background-color: rgb(109, 39, 223);
 }
 
 .flexbox-item-foot {
@@ -138,11 +139,60 @@ html body {
   margin-bottom: 10px;
 }
 
+/* Form styling*/
+.flexbox-item-contact-form input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+  float: left;
+  margin-top: 6px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.flexbox-item-contact-form fieldset {
+  border-radius: 5px;
+}
+.contact {
+  flex-direction: column;
+  width: 100%;
+  flex: 100%;
+}
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.flexbox-item-contact-form {
+  border-style: hidden;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.4);
+}
+.flexbox-item-contact-form input[type="submit"],
+input[type="reset"] {
+  border-radius: 4px;
+}
+/* socials styling for contact page*/
+.socials {
+  text-decoration: underline;
+}
+.socials a {
+  color: white;
+  font-size: large;
+}
+.socials a:hover {
+  color: darkorange;
+}
+
 @media screen and (max-width: 800px) {
   .toggle-button {
     display: flex;
   }
   .navbar-links {
+    display: none;
     width: 100%;
   }
   .navbar {

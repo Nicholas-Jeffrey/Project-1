@@ -4,12 +4,18 @@
     <title>Nick's Anime Watchlist - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/CSS/style.css" />
-    <script src="assets/Java/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/Images/profile.png" />
+    <script src="assets/Java/script.js" defer></script>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="brand-title">Nick's Anime Watchlist</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
         <div class="navbar-links">
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,17 +26,17 @@
       </nav>
     </header>
     <div class="flex-container">
-      <div class="flexbox-item flexbox-item-news">
+      <div class="flexbox-item flexbox-item-news contact">
         <h1>Contact Us</h1>
       </div>
-      <div class="flexbox-item flexbox-item-main">
-        <div
-          class="flexbox-item flexbox-item-contact-form"
-          target="_blank"
-          method="post"
-          autocomplete="on"
-        >
-          <form action="https://formdump.codeinstitute.net" target="_blank">
+      <div class="flexbox-item flexbox-item-main container">
+        <div class="flexbox-item flexbox-item-contact-form">
+          <form
+            action="https://formdump.codeinstitute.net"
+            target="_blank"
+            method="post"
+            autocomplete="on"
+          >
             <fieldset>
               <legend>Your Details</legend>
               <label for="fname">First name</label><br />
@@ -56,21 +62,34 @@
               />
             </fieldset>
             <fieldset>
-              <legend>Feedback</legend>
-              <label for="feedback"> Leave any feedback here:</label>
+              <legend>Message us</legend>
+              <label for="feedback"> Leave your message here:</label>
               <br />
               <textarea
                 id="feedback"
                 rows="4"
                 cols="87"
                 name="feedback"
-                placeholder="text goes here"
+                placeholder="Message"
               ></textarea>
             </fieldset>
             <br />
             <input type="submit" value="Submit" />
             <input type="reset" value="Reset form" />
           </form>
+        </div>
+        <div class="socials">
+          <h3>Socials</h3>
+          <a
+            href="https://github.com/Nicholas-Jeffrey"
+            class="fa fa-github"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/nicholas-jeffrey-53581b199"
+            class="fa fa-linkedin"
+            target="_blank"
+          ></a>
         </div>
       </div>
       <div class="flexbox-item flexbox-item-foot">
