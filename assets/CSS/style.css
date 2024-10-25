@@ -66,13 +66,15 @@ html body {
   background-color: white;
   border-radius: 10px;
 }
-
+/* styling for flex box for whole website */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   align-items: stretch;
+  margin: 0;
+  padding: 0;
 }
 .flexbox-item {
   border-style: solid;
@@ -88,19 +90,22 @@ html body {
 .flexbox-item-main {
   flex: 80%;
   padding: 20px;
-  background-color: rgb(109, 39, 223);
+  background-color: #481c3e;
 }
 
 .flexbox-item-foot {
   width: 100%;
   background-color: black;
   opacity: 0.9;
+  bottom: 0;
 }
 .flexbox-item-foot a {
   float: right;
   margin: 5px;
   color: darkorange;
 }
+
+/*styling for pictures */
 .preview-row {
   display: flex;
   align-items: center;
@@ -165,27 +170,40 @@ textarea {
 .container {
   border-radius: 5px;
   padding: 20px;
+  background-color: #481c3e;
+  margin: 0;
 }
 .flexbox-item-contact-form {
   border-style: hidden;
   border-radius: 5px;
   box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.4);
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  max-width: fit-content;
+}
+.flexbox-item-contact-form form {
+  max-width: fit-content;
 }
 .flexbox-item-contact-form input[type="submit"],
 input[type="reset"] {
   border-radius: 4px;
 }
 /* socials styling for contact page*/
-.socials {
+.socials h2 {
   text-decoration: underline;
 }
 .socials a {
   color: white;
   font-size: large;
+  padding: 4px;
+  text-decoration: none;
 }
 .socials a:hover {
   color: darkorange;
 }
+/* styling for different screens */
 
 @media screen and (max-width: 800px) {
   .toggle-button {
@@ -218,9 +236,6 @@ input[type="reset"] {
   .flex-container {
     flex-direction: column;
     justify-self: unset;
-  }
-  .flexbox-item-foot {
-    position: relative;
   }
   .preview-row {
     display: block;
