@@ -3,6 +3,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 body {
   background-image: url("../Images/village-8663792_1280.jpg");
   background-color: violet;
@@ -12,9 +15,46 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  max-height: max-content;
 }
-html body {
-  height: 100%;
+
+/* styling for flex box for whole website */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.flexbox-item {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gold;
+  opacity: 0.9;
+}
+.flexbox-item-news {
+  flex: 20%;
+  padding: 20px;
+  background-color: #0a99f8;
+}
+.flexbox-item-main {
+  flex: 80%;
+  padding: 20px;
+  background-color: #481c3e;
+}
+
+.flexbox-item-foot {
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  bottom: 0;
+}
+.flexbox-item-foot a {
+  float: right;
+  margin: 5px;
+  color: darkorange;
 }
 /* nav bar styling */
 .navbar {
@@ -66,45 +106,6 @@ html body {
   background-color: white;
   border-radius: 10px;
 }
-/* styling for flex box for whole website */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: row;
-  align-items: stretch;
-  margin: 0;
-  padding: 0;
-}
-.flexbox-item {
-  border-style: solid;
-  border-width: 1px;
-  border-color: gold;
-  opacity: 0.9;
-}
-.flexbox-item-news {
-  flex: 20%;
-  padding: 20px;
-  background-color: #0a99f8;
-}
-.flexbox-item-main {
-  flex: 80%;
-  padding: 20px;
-  background-color: #481c3e;
-}
-
-.flexbox-item-foot {
-  width: 100%;
-  background-color: black;
-  opacity: 0.9;
-  bottom: 0;
-}
-.flexbox-item-foot a {
-  float: right;
-  margin: 5px;
-  color: darkorange;
-}
-
 /*styling for pictures */
 .preview-row {
   display: flex;
@@ -132,6 +133,7 @@ html body {
   height: 300px;
   overflow: auto;
 }
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -237,6 +239,7 @@ input[type="reset"] {
   }
   body {
     background-position: center;
+    font-size: x-large;
   }
   .flex-container {
     flex-direction: column;
