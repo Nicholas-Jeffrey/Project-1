@@ -120,12 +120,17 @@ html body {
   clear: both;
   content: "";
 }
+.card h3 {
+  text-decoration: underline;
+}
 .card {
   display: inline-block;
   margin: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  height: 300px;
+  overflow: auto;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -144,7 +149,7 @@ html body {
   margin-bottom: 10px;
 }
 
-/* Form styling*/
+/* Form and contact page styling*/
 .flexbox-item-contact-form input[type="text"],
 input[type="email"],
 select,
