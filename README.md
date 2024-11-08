@@ -2,7 +2,7 @@
 
 Nick's Anime Watchlist is a site dedicated to myself and fellow otakus who are interested in keeping up with the anime I am currently watching and animes I have wathed before and which ones I recomend to watch. More importantly it is my submission for my code institute project one(1). Nick's ANime watchlist will be useful to demonstrates the knowledge gained from the course thus far and my ability as a web developer.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/Am%20i%20resposive%20for%20site.png)
 
 ## Features
 
@@ -15,47 +15,49 @@ This section goes over the different features in the website.
   - Each page of the website contains a fully responsive navigation bar which includes the Home Page, Watchlist, and Contact page and Title of the website. When the site is accessed on a device with a screen width of 800px or less; the navigation links will be replaced by a hamburger menu which will then reveal the hidden navigation links.
   - This feature is useful because it allows the user to travel to each page quickly and easily.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/navbar%20for%20site.png)
+![responsive navbar closed](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/responsive%20navbar%20closed.png)
+![responsive navbar open](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/responsive%20navbar%20open.png)
 
 - **The Background Image**
 
   - The background for the whole site is a picture by martellcreatives from pixabay
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Backgroun Image](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/village-8663792_1280.jpg)
 
 - **The News Section**
 
   - The News section of the website gives the user updates on what I am watching and any updates to the site as well.
   - The value of this feature allows the user to up-to-date on whats happening with the site.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![NEWS](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/news%20section.png)
 
 - **Currently watching section**
 
   - This section will show some of the anime I am watching currently with a desciption from myanimelist.net.
   - This section is updated whenever I watch a new anime I feel is worth sharing.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Cureently Watching](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/currently%20watching.png)
 
 - **The Footer**
 
   - The footer section includes credit for background image and links to my linkedin and Github which will open a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/footer.png)
 
 - **Watchlist**
 
   - This section of the site includes a gallery of many of the anime i have watched in the past as well as a list of my favorite animes of all time.
   - This section is valuable to the user as they wil be able to have a list of anime recomendations to select from.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Watchlist](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/watchlist%20gallery.png)
 
 - **The Contact Page**
 
   - This page would allow the user to get in contact iwth me and share any feedback they have. The page also more prominently features the social media links for my Linkedin and Github.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contatc Page](https://github.com/Nicholas-Jeffrey/Project-1/blob/main/assets/Images/contact%20page.png)
 
 ### Features Left to Implement
 
@@ -67,10 +69,6 @@ This section goes over the different features in the website.
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
