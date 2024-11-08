@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   max-height: max-content;
+  max-width: fit-content;
 }
 
 /* styling for flex box for whole website */
